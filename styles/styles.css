@@ -329,6 +329,7 @@ section {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  height: 500px;
 }
 
 .about-container .right-about .about-item {
@@ -1047,7 +1048,7 @@ section {
   }
 }
 
-@media screen and (max-width: 1432px) {
+@media screen and (max-width: 1440px) {
   header {
     padding: 0 !important;
   }
@@ -1084,6 +1085,7 @@ section {
   }
   .about-container .right-about {
     padding-top: 2.5rem;
+    height: 0%;
   }
   .about-container .left-about p {
     padding: 1.5rem 0;
